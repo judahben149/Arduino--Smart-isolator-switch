@@ -1,0 +1,34 @@
+Readme file for SoftDS1307RTC Library
+
+The SoftDS1307RTC library is provided to demonstrate the Arduino Time library.
+
+You will need the Software I2c library from adafruit:
+http://forums.adafruit.com/viewtopic.php?f=25&t=13722 (look for the file i2c.zip)
+... and the Arduino Time library:
+http://www.arduino.cc/playground/Code/Time
+
+See the TimeRTC_Soft and TimeRTCSet_Soft example sketches for usage
+
+An example circuit is included as well, with PCB layout, schematic and some real pictures.
+
+The components you will need can be purchased from Allied Electronics:
+$3.49 - DS1307+ RTC (8-pin DIP) - http://www.alliedelec.com/search/productdetail.aspx?SKU=6710143
+$1.11 - 32.768kHz Crystal - http://www.alliedelec.com/search/productdetail.aspx?SKU=9950078
+$1.27 - CR1220 3v Battery - http://www.alliedelec.com/search/productdetail.aspx?SKU=8840740
+$1.28 - 20mm Coin Cell Holder - http://www.alliedelec.com/search/productdetail.aspx?SKU=8390273
+-----------
+$7.15
+
+If you want to make this a standalone PCB you will need these as well
+$1.99 - Prototype PCB - http://www.radioshack.com/product/index.jsp?productId=2104052
+$1.95 - Right Angle Headers - http://www.sparkfun.com/products/553
+-----------
+$3.49
+
+
+OPTIONAL
+I chose to put 10K ohm resistors on the SDA and SCL lines to pull them up to Vcc (+5v), but on the Arduino
+you can just enable the builtin pullups like this:
+
+	pinMode(pinNumber, INPUT);
+	digitalWrite(pinNumber, HIGH);
