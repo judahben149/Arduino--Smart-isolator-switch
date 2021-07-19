@@ -1,4 +1,4 @@
-# Arduino--Smart-isolator-switch
+# Arduino--Smart-Gang-Isolator-switch
 Here's my code for a gang isolator switch. It's a switch which requires a password to be turned off and can only  be turned 
 back on when that password is entered. It is intended for use in an electric substation to lock up the gang isolator switch 
 when some repairs or maintenance is to be carried out. This ensures proper safety of the utility workers in the substation.
