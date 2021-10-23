@@ -23,7 +23,7 @@ Other components include; a __*4 by 4 matrix keypad*__, a __*DS1307 Real Time Cl
 * To use the system with or without sound from the buzzer, the __"#" key__ is pressed
 
 
-##Features of the system include:
+## Features of the system include:
 * A Real Time Clock module that serves as a log by storing recent date and time details. This info can be retrieved by pressing key D.
 * Protection is offered against multiple guesses such that the system locks up after **4 unsuccessful attempts** to unlock it.
 It then compels the use of the master password (which can also be changed) to unlock it.
