@@ -28,4 +28,8 @@ Other components include; a __*4 by 4 matrix keypad*__, a __*DS1307 Real Time Cl
 * Protection is offered against multiple guesses such that the system locks up after **4 unsuccessful attempts** to unlock it.
 It then compels the use of the master password (which can also be changed) to unlock it.
 
+## More about the project:
+* Check out full work ![here](https://drive.google.com/drive/folders/17kKo5f47Q3DIloETUw0UTkBpKQbuce93)
+* Check out publication ![here](https://drive.google.com/file/d/1PZTvI8H6rhTr6Pn7KUztUm5rlEfYT4mB/view)
+
 ![1626733078812](https://user-images.githubusercontent.com/71103838/149950502-d2585652-034c-459e-a141-03de719bf0de.jpg)
